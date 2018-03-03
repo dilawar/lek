@@ -18,8 +18,9 @@ from globals import *
 
 
 def play( args ):
+    init_chain( )
+    print_grid( )
     print( [ str(x) for x in players_ ] )
-    print( grid_ )
 
 
 def main( args ):
